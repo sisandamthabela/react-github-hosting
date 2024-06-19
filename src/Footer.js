@@ -7,8 +7,16 @@ export default function Footer() {
     <div className="footer">
       <p>
         This page was coded by{" "}
-        <a href="https://github.com/sisandamthabela">Sisanda Mthabela</a> and is
-        open-source on <a href="https://github.com">github</a>
+        <a href="https://github.com/sisandamthabela" target="_blank">
+          Sisanda Mthabela
+        </a>{" "}
+        and is open-source on
+        <a
+          href="https://github.com/sisandamthabela/react-github-hosting"
+          target="_blank"
+        >
+          github
+        </a>
       </p>
     </div>
   );
