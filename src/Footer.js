@@ -15,6 +15,7 @@ export default function Footer() {
           href="https://github.com/sisandamthabela/react-github-hosting"
           target="_blank"
         >
+          {" "}
           github
         </a>
       </p>
