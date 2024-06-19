@@ -1,0 +1,58 @@
+:root {
+  --font-family: "Poppins", sans serif;
+  --background-color: #fee7d2;
+  --secondary-color: #feaa50;
+  --font-color: #303345;
+  --box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.Search-Bar {
+  margin: 20px 0;
+}
+
+.search-input,
+.search-button {
+  font-size: 18px;
+  padding: 10px 10px;
+  border-radius: 4px;
+  font-family: var(--font-family);
+  margin: 0 2.5px;
+  box-shadow: var(--box-shadow);
+}
+.search-input {
+  width: 60%;
+  background-color: var(--background-color);
+  border: 1px solid var(--font-color);
+  color: var(--font-color);
+}
+.search-button {
+  width: 20%;
+  background-color: var(--secondary-color);
+  border: 1px solid var(--font-color);
+}
+
+h1 {
+  margin-top: 10px;
+  font-size: 50px;
+  font-family: var(--font-family);
+  font-weight: bold;
+}
+
+@media (max-width: 520px) {
+  .search-input {
+    width: 65%;
+    margin: 0 4px;
+    padding: 8px 5px;
+    font-size: 14px;
+  }
+  .search-button {
+    width: 25%;
+    padding: 8px 5px;
+    margin: 0 4px;
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+}

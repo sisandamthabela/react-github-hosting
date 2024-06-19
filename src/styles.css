@@ -1,0 +1,23 @@
+:root {
+  --font-color: #303345;
+  --font-family: "Poppins", sans serif;
+  --background: linear-gradient(300deg, #fab67c, #feebcf);
+}
+
+.App {
+  color: var(--font-color);
+  font-family: var(--font-family);
+  text-align: center;
+  background: var(--background);
+  width: 80%;
+  margin: 50px auto;
+  display: block;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+@media (max-width: 510px) {
+  .App {
+    width: 95%;
+  }
+}

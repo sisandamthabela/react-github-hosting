@@ -1,0 +1,28 @@
+:root {
+  --background-color: #fee7d2;
+  --secondary-color: #feaa50;
+  --footer-color: #ffd4ae;
+  --box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.footer a {
+  color: #ff822d;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: var(--footer-color);
+  padding: 20px 0;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+}
+
+@media (max-width: 510px) {
+  .footer a,
+  .footer p {
+    font-size: 14px;
+  }
+  .footer {
+    padding: 10px 0;
+  }
+}
